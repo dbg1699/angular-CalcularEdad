@@ -1,0 +1,5 @@
+<h1>Calcular la edad ⏳</h1> 
+<input type= "date" [(ngModel)] = "age" >
+<button type= "buttom" (click)= "ageCalculator()" > calcular </button>
+<p *ngIf="age">Tu edad es {{ showAge }}</p>
+<p> Recuerda que los dos primeros digitos de tu edad, son el numero de años y los siguientes digitos, son los meses </p>
